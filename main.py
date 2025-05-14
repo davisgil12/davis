@@ -1,6 +1,7 @@
 from flask import Flask, request, send_file, render_template
 from PIL import Image, ImageDraw, ImageFont
 import io
+import os
 
 app = Flask(__name__)
 
